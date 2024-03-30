@@ -220,7 +220,10 @@ section {
   white-space: nowrap;  /*  list items not break */
   }
 
-.title span{
+  #header-title{
+    color: var(--black);
+  }
+#header-title span{
   color: var(--primary-color);
 }
 
@@ -666,7 +669,7 @@ form .btn2{
   background-color: var(--primary-color);
   color: var(--white);
   font-weight: 300;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 

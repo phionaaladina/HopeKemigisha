@@ -570,6 +570,13 @@ footer p {
 
  /* contact section */
 
+ .row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
  .contact-left{
   flex-basis: 35%;
 }
@@ -612,8 +619,8 @@ footer p {
 
 
 .contact-right form{
-  width: 50%;
-  border: 1px solid #000;
+  width: 100%;
+  /* border: 1px solid #000; */
   padding: 10px;
 
 }

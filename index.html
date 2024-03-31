@@ -162,12 +162,15 @@
 
 
     <section class="contact">
+
+      <!-- <h1 class="title">Contact Me</h1> -->
+
         <div class="container">
         <div class="row">
             <div class="contact-left">
                 <h1 class="sub-title">Contact Me</h1>
-                <p> <i class="fa fa-paper-plane" aria-hidden="true"></i> hopekemigisha@gmail.com</p>
-                <p> <i class="fa fa-phone-square" aria-hidden="true"></i> +256 782 438534</p>
+                <p> <i class="fa fa-paper-plane" aria-hidden="true"></i> phionaaladina@gmail.com</p>
+                <p> <i class="fa fa-phone-square" aria-hidden="true"></i> +256 773 8747655</p>
                 <div class="social-icons">
                     <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -177,13 +180,13 @@
             </div>
         
             <div class="contact-right">
-            <form>
-                  <input type="text" name="Name" placeholder="Your Name" required>
-                  <input type="email" name="Email" placeholder="Your Email" required>
-                <textarea name="Message" id="Message" rows="6" placeholder="Your Message"></textarea>
-                <button type="submit" class="btn2">Submit</button>
-                </form>
-            </div>
+              <form  action="https://sheetdb.io/api/v1/x6bquw0907pqh" method="post" id="sheetdb-form"  >
+                <input type="text" name= "data[Name]" placeholder="Your Name" required>
+                <input type="email" name="data[Email]" placeholder="Your Email" required>
+                <textarea name="data[Message]" id="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn2" id="submitButton">Submit</button>
+              </form>
+              <!-- <div id="message" style="display: none;"></div> -->
         
         </div>
         
@@ -203,6 +206,7 @@
     </footer>
 
     
-    <script src="script.js"></script>
+    <script src="script.js">
+    </script>
   </body>
 </html>

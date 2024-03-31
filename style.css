@@ -557,7 +557,7 @@ footer p {
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid var(--blackvar);
+  border: 1px solid var(--primary-color);
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
@@ -594,12 +594,11 @@ footer p {
 }
 
 .contact-left p i{
-  color: var(--primary-color);
+  color: var(--black);
   margin-right: 15px;
   font-size: 15px;
   
 }
-
 
 .social-icons{
   margin-top: 30px;
@@ -633,7 +632,7 @@ form input, form textarea{
   width: 100%;
   border: 0;
   outline: none;
-  background-color:var(--black);
+  background-color:var(--blackvar);
   padding: 15px;
   margin: 15px 0;
   color: var(--white);
@@ -642,7 +641,7 @@ form input, form textarea{
 }
 
 form ::placeholder{
-  color: var(--blackvar);
+  color: var(--white);
 }
 
 form .btn2{
@@ -650,7 +649,15 @@ form .btn2{
   font-size: 18px;
   margin-top: 20px;
   cursor: pointer;
-  background: var(--primary-color);
+  background: var(--black);
+  border: 1px ;
+  border-radius: 3px;
+  color: var(--white);
+}
+
+form .btn2:hover{
+  background: var(--blackvar);
+  border: 1px solid #444141 ;
   color: var(--white);
 }
 

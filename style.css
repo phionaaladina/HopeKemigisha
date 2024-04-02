@@ -65,10 +65,10 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: var(--black);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(83, 2, 2);
 }
 
 .logo {
@@ -89,6 +89,7 @@ a:hover {
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  
 }
 
 .hamburger-icon {
@@ -111,7 +112,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: var(--primary-color);
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -123,7 +124,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
+  color: var(--white);
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
@@ -451,16 +452,6 @@ article .icon {
   height: 2.5rem;
 }
 
-/* FOOTER SECTION */
-
-footer {
-  height: 26vh;
-  margin: 0 1rem;
-}
-
-footer p {
-  text-align: center;
-} */
 
 
 
@@ -666,7 +657,7 @@ form .btn2:hover{
 
 
 
-
+/* FOOTER SECTION */
 
 .copyright{
   width: 100%;
@@ -676,13 +667,23 @@ form .btn2:hover{
   background-color: var(--primary-color);
   color: var(--white);
   font-weight: 300;
+  /* position: absolute; */
   /* margin-top: 20px; */
 }
 
 
 .copyright p{
-  
-
   color: var(--white);
-  
+  }
+
+
+
+
+/* footer {
+  height: 26vh;
+  margin: 0 1rem;
 }
+
+footer p {
+  text-align: center;
+}  */

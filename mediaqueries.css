@@ -41,10 +41,13 @@
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
+    padding-top: 90px;
+    /* padding-top: 50px; */
   }
   .about-containers {
     margin-top: 0;
   }
+
 }
 
 @media screen and (max-width: 600px) {

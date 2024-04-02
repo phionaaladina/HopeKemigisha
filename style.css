@@ -47,15 +47,22 @@ nav,
 }
 
 nav {
+  position: fixed; /* Make header fixed at the top */
+  width: 100%; /* Ensure header spans the full width */
+  z-index: 1000; /* Ensure header appears above other content */
+  background-color: var(--white);
+  padding: 5px;
   justify-content: space-around;
   align-items: center;
   height: 17vh;
-}
+ 
+  }
 
 .nav-links {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
+
 }
 
 a {
@@ -189,6 +196,7 @@ section {
   height:600px;
   width: 600px;
   margin: auto 0;
+  padding-top: 50px;
 }
 
 

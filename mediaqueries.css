@@ -93,6 +93,7 @@
     width: auto;
     height: 46vw;
     justify-content: center;
+    /* padding-top: 320px; */
   }
   .section__text__p2 {
     font-size: 1.25rem;

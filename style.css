@@ -674,7 +674,7 @@ form .btn2:hover{
   padding: 25px 0;
   background-color: var(--primary-color);
   color: var(--white);
-  font-weight: 300;
+  font-weight: bold;
   /* position: absolute; */
   /* margin-top: 20px; */
 }

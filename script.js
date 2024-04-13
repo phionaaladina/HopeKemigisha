@@ -29,6 +29,33 @@ var form = document.getElementById('sheetdb-form');
 
 
 
+// // remove navlist
+// navlist.addEventListener("click",()=>{
+//   navlist.classList.remove("active");
+//   menuIcon.classList.remove("active");
+//   document.body.classList.remove("open");
+// })
+
+
+
+// Switch between about buttons
+const buttons = document.querySelectorAll('.about-btn button');
+const contents = document.querySelectorAll('.content');
+
+console.log("Buttons: ", buttons);
+console.log("Contents: ", contents);
+
+buttons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    console.log("Button clicked: ", index);
+    contents.forEach(content => content.style.display = 'none');
+    contents[index].style.display = 'block';
+    buttons.forEach(btn => btn.classList.remove('active'));
+    button.classList.add('active');
+  });
+});
+
+
 
 
 

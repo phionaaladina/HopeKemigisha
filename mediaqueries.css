@@ -53,11 +53,13 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
+    /* margin-top: 31.25em; */
     height: 40vh;
   }
   #profile {
     height: 83vh;
-    margin-bottom: 0;
+     margin-bottom: 15px;
+    
   }
   article {
     font-size: 1rem;
@@ -66,11 +68,14 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
+
+
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
   }
+  
   .contact-info-container {
     margin: 0;
   }
@@ -104,4 +109,15 @@
   .text-container {
     text-align: justify;
   }
+
+ 
+.about-btn button{
+    padding: 10px 15px;
+    margin: 2px;
+}
+
+.copyright {
+  height: fit-content;
+  margin-top: 31rem;
+} 
 }

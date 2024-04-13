@@ -10,11 +10,11 @@
 
 :root{
    
-  --primary-color:  #e00229;
+  --primary-color:  #7c481b;
   --primary-color--var:  #520311;
   --secondary:   #c4c0cc;
   --black: #141414;
-  --blackvar: #444141;
+  --blackvar:  #7c481b;
   --white: #fff;
   --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
 }
